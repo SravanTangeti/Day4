@@ -6,5 +6,5 @@ cd gold/
 sudo git clone https://github.com/SravanTangeti/Day2.git
 cd Day2/
 sudo docker build -t react-microk8s -f golddockerfile .
-sudo docker tag react-microk8s:latest sravantangeti/react-microk8s:latest ##make sure you did docker login
-sudo docker push sravantangeti/react-microk8s:latest
+sudo docker tag react-microk8s:latest sra1tangeti/react-microk8s:latest ##make sure you did docker login
+sudo docker push sra1tangeti/react-microk8s:latest
