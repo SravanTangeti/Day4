@@ -4,7 +4,7 @@ sudo rm -r gold ## these steps are not recommened instead you can modify script 
 sudo mkdir gold
 cd gold/
 sudo git clone https://github.com/SravanTangeti/Day4.git
-cd Day4-code/
+cd Day4/
 sudo docker build -t react-microk8s -f golddockerfile .
 sudo docker tag react-microk8s:latest sravantangeti/react-microk8s:latest ##make sure you did docker login
 sudo docker push sravantangeti/react-microk8s:latest
